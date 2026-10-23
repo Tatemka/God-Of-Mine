@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "gow_mine:poseydons_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "gow_mine:poseydons_armor"
+      }
+    ]
+  }
+}

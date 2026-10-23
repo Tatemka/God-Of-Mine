@@ -1,0 +1,62 @@
+{
+  "mod_elements": [
+    {
+      "name": "TheSwordofOlympus",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_swordof_olympus",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gow_mine/items/the_swordof_olympus.json",
+          "src/main/java/net/mcreator/gowmine/item/TheSwordofOlympusItem.java",
+          "src/main/resources/assets/gow_mine/models/item/the_swordof_olympus.json"
+        ]
+      }
+    },
+    {
+      "name": "Swordofolympus",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordofolympus"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.gow_mine.the_swordof_olympus": "The Swordof Olympus"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/gowmine/init/GowMineModItems.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/gowmine/GowMineMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "gow_mine",
+    "modName": "God of Mine",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-26.1.2",
+    "modElementsPackage": "net.mcreator.gowmine"
+  },
+  "mcreatorVersion": 202600233518
+}

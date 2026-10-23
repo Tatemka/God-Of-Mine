@@ -1,0 +1,67 @@
+{
+  "mod_elements": [
+    {
+      "name": "Swordofolympus",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordofolympus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/gowmine/item/SwordofolympusItem.java",
+          "src/main/resources/assets/gow_mine/items/swordofolympus.json",
+          "src/main/resources/assets/gow_mine/models/item/swordofolympus.json"
+        ]
+      }
+    },
+    {
+      "name": "PoseydonsArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poseydons_armor"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:swords": [
+      "~Swordofolympus@CUSTOM:Swordofolympus"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.gow_mine.swordofolympus": "Swordofolympus"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/gowmine/init/GowMineModItems.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/gowmine/GowMineMod.java",
+      "src/main/java/net/mcreator/gowmine/init/GowMineModTabs.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "gow_mine",
+    "modName": "God of Mine",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-26.1.2",
+    "modElementsPackage": "net.mcreator.gowmine"
+  },
+  "mcreatorVersion": 202600233518
+}
